@@ -1,0 +1,12 @@
+pytest
+selenium
+pytest-html  # For generating HTML test reports with Pytest
+pytest-xdist  # For parallel test execution
+requests  # For making HTTP requests (useful for data-driven testing)
+xlrd  # For reading Excel files (if you plan to use Excel for test data)
+openpyxl  # For working with Excel files (alternative to xlrd)
+configparser  # For reading configuration files (e.g., for storing URLs)
+webdriver_manager  # For managing WebDriver downloads
+#allure-pytest
+#pytest-logs  # For logging test steps
+pytest-failed-screenshot  # For capturing screenshots on test failures
