@@ -38,10 +38,13 @@ pytest
 
 ## Testing Framework
 ### Framework Overview
+
 This project utilizes a testing framework based on the following technologies:
 
 Pytest: A testing framework that makes it easy to write simple and scalable test cases.
+
 Selenium: A powerful tool for controlling a web browser through the program.
+
 Page Object Model (POM): A design pattern for creating well-structured test automation frameworks by encapsulating web page elements and their interactions in separate classes.
 Page Object Model (POM)
 The Page Object Model (POM) design pattern is used to create a structured and maintainable test automation framework. It encapsulates the web page elements and interactions in separate Python classes, making the code easy to understand and maintain.
@@ -58,6 +61,7 @@ Error Handling: Exception handling is implemented to gracefully handle errors an
 Comprehensive Reporting: The project is configured to provide comprehensive test reports using Pytest reporting features, including the generation of JUnit XML reports.
 
 ### GitHub Actions Workflow
+
 This repository is configured with a GitHub Actions workflow for automated testing. The workflow runs tests whenever changes are pushed to the main branch.
 
 For more details, check the GitHub Actions Workflow configuration.
